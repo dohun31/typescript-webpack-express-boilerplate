@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "babel ./src --out-dir dist && node dist/app.js",
+    "start": "babel ./src --out-dir dist --extensions \".ts\" && node dist/bin/www.js",
     "build": "babel ./src --out-dir dist --extensions \".ts\""
   },
   "dependencies": {
