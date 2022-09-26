@@ -1,0 +1,14 @@
+{
+  "include": ["./"],
+  "exclude": ["./dist/"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
